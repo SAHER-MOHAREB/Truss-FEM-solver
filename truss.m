@@ -1,6 +1,6 @@
-%clear; clc;
+%%clear; clc;
 clear; clc;
-% input data.
+%% input data.
 NC = input('Please, Enter the Coordinates of Each Node as a Matrix:\n');
 NR = input('Please, Enter the restraints of the nodes as a matrix:\n');
 EC = input('Please, Enter the End Connections of the Elements as a Matrix:\n');
@@ -194,21 +194,3 @@ end
 fprintf('---------------------------------------------------------\n');
 % Student: SAHER ASHRAF RAMADAN MOHAREB.
 % THANKS.
-M_R;
-DOF;
-L;
-l;
-m;
-KE;
-KG;
-AM;
-KM;
-P;
-K;
-U;
-KL;
-UL;
-M_VC;
-MVC;
-EL;
-EF;
